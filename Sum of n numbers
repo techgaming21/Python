@@ -1,0 +1,8 @@
+num = int(input("How many numbers do you want: "))
+total_sum = 0
+
+for n in range(num):
+    numbers = int(input("Enter the number for addition: "))
+    total_sum += numbers
+
+print("Your sum is: ", total_sum)
